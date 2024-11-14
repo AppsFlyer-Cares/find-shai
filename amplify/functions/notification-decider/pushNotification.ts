@@ -17,7 +17,7 @@ export async function pushNotificationToApp(
 
   console.log("Pushing notification to caregiver:", care_giver_id);
 
-  const applicationId = "5d9dcb687b7d43aba8ef3f6465c8039c"; // Replace with your Pinpoint application ID
+  const applicationId = ""; // Replace with your Pinpoint application ID
 
   const pinpointClient = new PinpointClient({ region: "eu-west-1" });
 

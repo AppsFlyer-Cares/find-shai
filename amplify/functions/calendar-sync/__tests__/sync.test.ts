@@ -3,8 +3,8 @@
 // import { getGeolocation } from '../geofence';
 
 // test('getDataFromAPI fetches data correctly', async () => {
-//     const token = 'AIzaSyBCdZ9j_C62ywTKdh8o7I5Zvwp7T9FP-LA' // tmp remove later
-//     const email = 'shaimishaly93@gmail.com' // tmp remove later
+//     const token = '' // tmp remove later
+//     const email = '' // tmp remove later
 //     await listEvents(email, token).then(data => {
 //         expect(data).toBeDefined();
 //     })

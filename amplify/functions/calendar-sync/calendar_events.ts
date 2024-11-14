@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 // Initialize the Google Calendar API with a static token
 // const calendar = google.calendar({
 //   version: "v3",
-//   auth: "AIzaSyBCdZ9j_C62ywTKdh8o7I5Zvwp7T9FP-LA",
+//   auth: "",
 // });
 
 // Function to list Google Calendar events
@@ -15,7 +15,7 @@ export async function listEvents(
 ): Promise<CalendarEvent[]> {
   try {
     let url_calendar =
-      "https://calendar.google.com/calendar/ical/liavramadi17%40gmail.com/private-a7db8ff49470ec60cb5e4e172be4ecca/basic.ics";
+      "https://calendar.google.com/calendar/ical/user@gmail.com/private-1234556/basic.ics";
     // url_calendar = calendar_token
     const events = await downloadAndConvertICS(url_calendar); // Ensure the URL is passed correctly
 
