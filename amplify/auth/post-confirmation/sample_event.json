@@ -1,0 +1,22 @@
+{
+    "version": "1",
+    "region": "eu-west-1",
+    "userPoolId": "eu-west-1_ABC",
+    "userName": "12f5c444-1071-7067-a272-7341426d29d9",
+    "callerContext": {
+      "awsSdkVersion": "aws-sdk-swift-1.0",
+      "clientId": ""
+    },
+    "triggerSource": "PostConfirmation_ConfirmSignUp",
+    "request": {
+      "userAttributes": {
+        "sub": "12f5c444-1071-7067-a272-7341426d29d9",
+        "email_verified": "true",
+        "cognito:user_status": "CONFIRMED",
+        "email": "test1@gmail.com",
+        "given_name":"avi",
+        "preferred_username":"caregiver"
+      }
+    },
+    "response": {}
+  }

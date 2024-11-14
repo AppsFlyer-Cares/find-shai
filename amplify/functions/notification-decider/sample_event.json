@@ -1,0 +1,20 @@
+{
+  "version": "0",
+  "id": "675138a5-93c7-2172-d885-a153fc47ff02",
+  "detail-type": "Location Geofence Event",
+  "source": "aws.geo",
+  "account": "123456789",
+  "time": "2022-12-19T18:04:28Z",
+  "region": "eu-west-1",
+  "resources": [
+    "arn:aws:geo:eu-west-1:123456789:geofence-collection/53b8640f-c5f2-491f-8f21-ccfc93ee0408",
+    "arn:aws:geo:eu-west-1:123456789:tracker/team-shay-tracker"
+  ],
+  "detail": {
+    "event_type": "EXIT",
+    "geofence_id": "f6e15350-095d-4985-9b5d-b7e8db1e0b41",
+    "loved_one_id": "e72efc7c-9692-472b-bce5-b02502783352",
+    "time_happened": "2022-12-19T18:04:28Z",
+    "position": [34.91382855951753, 32.343131069414234]
+  }
+}
