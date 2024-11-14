@@ -1,7 +1,21 @@
 # Find Shai
 
 
-## About the project
+Find Shai is an open source project that provides real time geofencing based on Shai's busy calendar
+
+## About Find Shai
+
+This is Shai's calendar:
+
+<img src="docs/calendar.png" alt="Logo" width="400">
+
+Our goal is to notify shai's family when he enters/exists an event on his calendar. 
+
+We notify his family on two main events:
+1. Enter - the user has entered the location of an event on his calendar.
+2. Exit - the user exits the location of a calendar event.
+
+<img src="./docs/geofence_in_out.gif" width="300" height="300">
 
 
 ## Running the project
@@ -33,5 +47,3 @@ cd find-shai-mobile-app
 npm install
 npm run start
 ```
-
-<img src="./docs/geofence_in_out.gif" width="300" height="300">
