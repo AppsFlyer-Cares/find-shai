@@ -11,9 +11,6 @@ export async function pushNotificationToApp(
   token: string,
   message_text: string
 ): Promise<void> {
-  // console.log(
-  //   `Pushing notification to caregiver ${care_giver_id}: ${message_text}`
-  // );
 
   console.log("Pushing notification to caregiver:", care_giver_id);
 

@@ -26,11 +26,11 @@ export const handler: Handler = async (event, context) => {
     event = {
       version: "1",
       region: "eu-west-1",
-      userPoolId: "eu-west-1_URNKxH9zD",
+      userPoolId: "eu-west-1_*****",
       userName: id,
       callerContext: {
         awsSdkVersion: "aws-sdk-swift-1.0",
-        clientId: "2sudmbdrh04s7i3tsqe4bqp131",
+        clientId: "2**********1",
       },
       triggerSource: "PostConfirmation_ConfirmSignUp",
       request: {
