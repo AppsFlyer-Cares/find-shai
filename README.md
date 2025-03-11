@@ -47,3 +47,8 @@ cd find-shai-mobile-app
 npm install
 npm run start
 ```
+
+# System Diagram
+
+<img src="./docs/diagram.png">
+
